@@ -1,0 +1,1420 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital,wght@0,700;1,700&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Mulish:ital@0;1&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,500;1,700&family=Roboto:ital,wght@0,300;0,700;0,900;1,300&family=Spinnaker&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital,wght@0,400;0,600;1,400;1,500&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,500&family=Poppins:ital,wght@0,400;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Spinnaker&display=swap"
+    rel="stylesheet">
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital,wght@0,400;0,600;1,400;1,500&family=Mulish:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Spinnaker&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/jquery-3.6.0.js">
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital,wght@0,400;0,600;1,400;1,500&family=Mulish:ital,wght@0,500;1,500&family=Poppins:ital@0;1&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Spinnaker&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.scss">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>E-Commerce</title>
+</head>
+
+<body>
+  <!-- header-top-start -->
+  <div class="header-area">
+    <div class="header-top-area">
+      <div class="container ">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="header-top-left mt-3">
+              <div class="call-area">
+                <span class="single-con-add">
+                  <i class="bi bi-phone text-danger me-2"></i>
+                  +0123456789
+                </span>
+                <span class="example mx-3">
+                  <i class="bi bi-envelope text-danger me-1 "></i>
+                  Example@Gmail.com
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 d-flex justify-content-end">
+            <ul class="header-top-right list-unstyled d-flex ">
+              <li class="account-area">
+                <i class="bi bi-person text-danger me-1"></i>
+                My Account
+              </li>
+              <li>
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn"><i
+                      class="bi bi-book text-danger me-2"></i>language</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#home">English</a>
+                    <a href="#about">French</a>
+                    <a href="#contact">Portuguese</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown mt-4 ms-4">
+                  <span id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i
+                      class="bi bi-currency-dollar text-danger"></i>
+                    currency
+                  </span>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">$- USD</a></li>
+                    <li><a class="dropdown-item" href="#">€ - Euro</a></li>
+                    <li><a class="dropdown-item" href="#">£ - Pound</a></li>
+                  </ul>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header-top-end -->
+  <!-- header-bottom-area-start -->
+  <section class="sticky-top bg-light">
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="logo">
+          <img src="./img/logo.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <!-- home-area-start -->
+        <div class="right-menu mt-4">
+          <h1 class="menu-button">HOME</h1>
+
+        </div>
+        <!-- home-area-end -->
+        <div class="right-menu">
+          <h1 class="menu-button">SHOP<i class="fa fa-angle-down" aria-hidden="true"></i></h1>
+          <div class="d-menu-third bg-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <a href="#">Product Details</a>
+                  <a href="#">Cart</a>
+                  <a href="#">Checkout</a>
+                  <a href="#">Wishlist</a>
+                  <a href="#">Account</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- shop-area-end -->
+        <!-- men-area-start -->
+        <div class="right-menu">
+          <h1 class="menu-button">MEN<i class="fa fa-angle-down" aria-hidden="true"></i></h1>
+          <div class="d-menu bg-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3">
+                  <h5 class="text-dark mt-2"> <span>men</span></h5>
+
+                  <a href="#">Blazers</a>
+                  <a href="#">Jackets</a>
+                  <a href="#">Collections</a>
+                  <a href="#">T-Shirts</a>
+                  <a href="#">jens pant’s</a>
+                  <a href="#">sports shoes</a>
+                </div>
+                <div class="col-lg-3">
+                  <ul class="list-unstyled">
+                    <h5 class="text-dark mt-2"> <span>Women</span></h5>
+                    <a href="#">Blazers</a>
+                    <a href="#">Jackets</a>
+                    <a href="#">Collections</a>
+                    <a href="#">T-Shirts</a>
+                    <a href="#">jens pant’s</a>
+                    <a href="#">sports shoes</a>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <ul class="list-unstyled">
+                    <h5 class="text-dark mt-2"> <span>jackets</span></h5>
+                    <a href="#">Blazers</a>
+                    <a href="#">Jackets</a>
+                    <a href="#">Collections</a>
+                    <a href="#">T-Shirts</a>
+                    <a href="#">jens pant’s</a>
+                    <a href="#">sports shoes</a>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <ul class="list-unstyled">
+                    <h5 class="text-dark mt-2"> <span>jeans pant's</span></h5>
+                    <a href="#">Blazers</a>
+                    <a href="#">Jackets</a>
+                    <a href="#">Collections</a>
+                    <a href="#">T-Shirts</a>
+                    <a href="#">jens pant’s</a>
+                    <a href="#">sports shoes</a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- men-part-end -->
+        <!-- women-part-start -->
+        <div class="right-menu">
+          <h1 class="menu-button">WOMEN<i class="fa fa-angle-down" aria-hidden="true"></i></h1>
+          <div class="d-menu-second bg-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <h5 class="text-dark mt-2"><span>WOMEN</span></h5>
+                  <a href="#">Blazers</a>
+                  <a href="#">Jackets</a>
+                  <a href="#">Collections</a>
+                  <a href="#">T-Shirts</a>
+                  <a href="#">jens pant’s</a>
+                  <a href="#">sports shoes</a>
+                </div>
+                <div class="col-lg-4">
+                  <ul class="list-unstyled">
+                    <h5 class="text-dark mt-2"> <span>T-SHIRTS</span></h5>
+                    <a href="#">Blazers</a>
+                    <a href="#">Jackets</a>
+                    <a href="#">Collections</a>
+                    <a href="#">T-Shirts</a>
+                    <a href="#">jens pant’s</a>
+                    <a href="#">sports shoes</a>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <ul class="list-unstyled">
+                    <h5 class="text-dark mt-2"> <span>jackets</span></h5>
+                    <a href="#">Blazers</a>
+                    <a href="#">Jackets</a>
+                    <a href="#">Collections</a>
+                    <a href="#">T-Shirts</a>
+                    <a href="#">jens pant’s</a>
+                    <a href="#">sports shoes</a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- women-part-end -->
+        <!-- pages-part-start -->
+        <div class="right-menu">
+          <h1 class="menu-button">PAGES<i class="fa fa-angle-down" aria-hidden="true"></i></h1>
+          <div class="d-menu-third bg-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <a href="#">Left Sidebar Blog</a>
+                  <a href="#">Right Sidebar Blog</a>
+                  <a href="#">Full Width Blog</a>
+                  <a href="#">Blog Details</a>
+                  <a href="#">About Us</a>
+                  <a href="#">Contact Us</a>
+                  <a href="#">404 Page</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- pages-area-end -->
+        <!-- CONTACT-AREA-START -->
+        <div class="right-menu">
+          <h1 class="menu-button">CONTACT</h1>
+        </div>
+        <!-- CONTACT-AREA-END -->
+      </div>
+      <!-- cart-area-start -->
+      <div class="col-lg-3">
+        <div class="last-menu">
+          <div class="search-bar me-3">
+            <div class="search-icon">
+              <i class="fa fa-search text-light " aria-hidden="true"></i>
+            </div>
+          </div>
+          <!-- cart-area-start -->
+          <div class="shop-cart">
+            <div class="right-menu">
+              <h1 class="menu-button">
+                <sup>2</sup>
+                <div class="cart-area ms-5">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </h1>
+              <div class="d-menu-fourth bg-light">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="first-img d-flex">
+                        <img src="./img/1.jpg" alt="">
+                        <h1 class="text-dark mt-3">this is Product <br>
+                          <strong class="text-dark"> Name 1x$25.00</strong>
+                        </h1>
+                      </div>
+                      <hr>
+                      <div class="second-img d-flex mt-3">
+                        <img src="./img/2.jpg" alt="">
+                        <h1 class="text-dark mt-3">This is Product <br>
+                          <strong class="text-dark"> Name 1x$25.00</strong>
+                        </h1>
+                      </div>
+                      <hr>
+                      <div class="sub-total">
+                        <h6>subtotal $50.00</h6>
+                      </div>
+                      <button type="button" class="btn btn-danger2 mt-3">Checkout</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .cart-area-end -->
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- header-bottom-area-end -->
+  <!-- carousel-start -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="first-slide-image">
+          <div class="carousel-caption">
+            <div class="slider-one-content">
+              <p>New Year 2019</p>
+              <h1>best shopping</h1>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam<br><span>vitae posuere est Sed placerat
+                  ligula</span>
+              </h4>
+              <div class="new">
+                <button class="shopping-btn">Shop Now</button>
+                <button class="collection-btn ms-2">Collection</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="second-slide-image">
+          <div class="carousel-caption">
+            <div class="slider-two-content text-center">
+              <p>Women fashion</p>
+              <h1>New Collection</h1>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam<br> <span>vitae posuere est Sed placerat
+                  ligula</span>
+              </h4>
+              <div class="new-two">
+                <button class="shopping-btn">Shop Now</button>
+                <button class="collection-btn ms-2">Collection</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="third-slide-image">
+          <div class="carousel-caption">
+            <div class="slider-third-content">
+              <p>Men Collection</p>
+              <h1>New Collection</h1>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam<br> <span>vitae posuere est Sed placerat
+                  ligula</span>
+              </h4>
+              <div class="newthree">
+                <button class="shopping-btn">Shop Now</button>
+                <button class="collection-btn ms-2">Collection</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <i class="bi bi-arrow-left"></i>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <i class="bi bi-arrow-right"></i>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- carousel-end -->
+  <!-- animated-part-1-start -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="box">
+          <img src="img/1 (1).jpg" alt="">
+          <div class="box-content">
+            <div class="content">
+              <span class="post">2019 Collection<p> You Will Love Upto 60% Off</p> 
+                <button class="btn btn-danger btn-sm">Shop Now</button> </span>
+            </div>
+            <h3 class="text-center mt-5 ">Shoes</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box">
+          <img src="img/2 (1).jpg" alt="">
+          <div class="box-content">
+            <div class="content">
+              <span class="post">2019 Collection<p class="mt-3"> You Will Love Upto 60% Off</p> 
+                <button class="btn btn-danger btn-sm">Shop Now</button> </span>
+            </div>
+            <h3 class="text-center mt-5">Watch</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box">
+          <img src="img/3 (1).jpg" alt="">
+          <div class="box-content">
+            <div class="content">
+              <span class="post">2019 Collection<p> You Will Love Upto 60% Off</p> <button
+                  class="btn btn-danger btn-sm">Shop Now</button> </span>
+            </div>
+            <h3 class="text-center mt-5">Bags</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- animated-part-1-end -->
+  <!-- product-area-start -->
+  <div class="product-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title">
+            <span class="sub-title">Check Our All Products</span>
+            <h2 class="mt-2">Our Products</h2>
+            <div class="divider text-center">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="buttons mt-5">
+            <ul class="list-unstyled d-flex justify-content-center ">
+              <li class="All">All</li>
+              <li class="mx-4">Sale</li>
+              <li class="mx-4">Bestseller</li>
+              <li class="mx-4">Featued</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product-item1-start -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/1 (2).jpg">
+              <img class="pic-2" src="img/2 (2).jpg">
+            </a>
+            <span class="product-discount-label">SALE</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price"><i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title">product title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+
+            <h4 class="add-to-cart text-center" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/7.jpg">
+              <img class="pic-2" src="img/8.jpg">
+            </a>
+            <span class="product-discount-label">-20%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/5.jpg">
+              <img class="pic-2" src="img/6.jpg">
+            </a>
+            <span class="product-discount-label">SALE</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/7.jpg">
+              <img class="pic-2" src="img/8.jpg">
+            </a>
+            <span class="product-discount-label">NEW</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product-item1-end -->
+  <!-- product-item2-start -->
+  <div class="container mt-2">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/1 (2).jpg">
+              <img class="pic-2" src="img/2 (2).jpg">
+            </a>
+            <span class="product-discount-label">SALE</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price"><i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title">product title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+
+            <h4 class="add-to-cart text-center" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/7.jpg">
+              <img class="pic-2" src="img/8.jpg">
+            </a>
+            <span class="product-discount-label">SALE</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/5.jpg">
+              <img class="pic-2" src="img/6.jpg">
+            </a>
+            <span class="product-discount-label">-30%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/7.jpg">
+              <img class="pic-2" src="img/8.jpg">
+            </a>
+            <span class="product-discount-label">SALE</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product-item2-end -->
+  <!-- sale-season-area-start -->
+  <div class="special-offer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="special-wrap text-center">
+            <div class="special-img mt-5">
+              <img src="img/special.png" width="370px" alt="" class="img img-fluid">
+              <span class="off-baudge text-center">-50% <br> Off</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="special-info">
+            <span>Hurry Up! Offer Ends In</span>
+            <h3 class="mt-3">Winter Flash Sale <br>End Soon</h3>
+            <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum
+              has been the
+              industry's standard dummy <br> Lorem Ipsum</p>
+            <div class="countdown text-center d-flex mt-5 me-3">
+              <p class="me-4 "><strong>00</strong> <br>Days </p>
+              <p class="mx-4"><strong>00</strong> <br>Hours </p>
+              <p class="mx-4"><strong>00</strong> <br>Minutes </p>
+              <p class="mx-4"><strong>00</strong> <br>seconds </p>
+            </div>
+            <div class="clearfix">
+            </div>
+            <button class="main-btn">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- sale-season-area-end -->
+  <!-- featured-product-area-start -->
+  <div class="product-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title">
+            <span class="sub-title">Check Our Featured Products</span>
+            <h2 class="mt-2">Featured Products</h2>
+            <div class="divider text-center">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="buttons mt-5">
+            <ul class="list-unstyled d-flex justify-content-center ">
+              <li class="All">All</li>
+              <li class="mx-4">Sale</li>
+              <li class="mx-4">Bestseller</li>
+              <li class="mx-4">Featued</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product-item1-start -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/1 (2).jpg">
+              <img class="pic-2" src="img/2 (2).jpg">
+            </a>
+            <span class="product-discount-label">-25%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price"><i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title">product title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+
+            <h4 class="add-to-cart text-center" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/7.jpg">
+              <img class="pic-2" src="img/8.jpg">
+            </a>
+            <span class="product-discount-label">-25%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/5.jpg">
+              <img class="pic-2" src="img/6.jpg">
+            </a>
+            <span class="product-discount-label">-25%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/7.jpg">
+              <img class="pic-2" src="img/8.jpg">
+            </a>
+            <span class="product-discount-label">-25%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product-item1-end -->
+  <!-- product-item2-start -->
+  <div class="container mt-2">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/1 (2).jpg">
+              <img class="pic-2" src="img/2 (2).jpg">
+            </a>
+            <span class="product-discount-label">-25%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price"><i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title">product title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+
+            <h4 class="add-to-cart text-center" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/7.jpg">
+              <img class="pic-2" src="img/8.jpg">
+            </a>
+            <span class="product-discount-label">-25%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/5.jpg">
+              <img class="pic-2" src="img/6.jpg">
+            </a>
+            <span class="product-discount-label">-25%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="img/7.jpg">
+              <img class="pic-2" src="img/8.jpg">
+            </a>
+            <span class="product-discount-label">-25%</span>
+            <ul class="social">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="product-content">
+            <div class="price">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="title mt-3">Product Title</h3>
+            <span class="product-category text-center">$16.00 $20.00
+            </span>
+            <h4 class="add-to-cart" href="#" data-tip="add-to-cart">+ ADD TO CART </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product-item-2-start -->
+  <!-- Testimonial-area-start -->
+  <div class="testimonial-img">
+    <div class="slider-area">
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="testimoniall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus felis, <br>
+                bibendum
+                eu nibh et, finibus semper sem. Nam at tincidunt leo. Nam sit amet <br> mauris et lorem
+                varius lobortis eu a nisl..</p>
+              <div class="img-area">
+                <img src="img/1 (3).jpg" alt="...">
+              </div>
+              <div class="carousel-caption">
+                <h3>williamson</h3>
+                <h4>-Themesvila</h4>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <p class="testimoniall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus felis, <br>
+                bibendum
+                eu nibh et, finibus semper sem. Nam at tincidunt leo. Nam sit amet <br> mauris et lorem
+                varius lobortis eu a nisl..</p>
+              <div class="img-area">
+                <img src="img/2 (2).jpg" alt="...">
+              </div>
+              <div class="carousel-caption">
+                <h3>Susana</h3>
+                <h4>- Themesvila</h4>
+
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <p class="testimoniall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus felis, <br>
+                bibendum
+                eu nibh et, finibus semper sem. Nam at tincidunt leo. Nam sit amet <br> mauris et lorem
+                varius lobortis eu a nisl..</p>
+              <div class="img-area">
+                <img src="img/2 (3).jpg" alt="...">
+              </div>
+              <div class="carousel-caption">
+                <h3>Michel</h3>
+                <h4> - Themesvila</h4>
+
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <i class="bi bi-arrow-left-short"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <i class="bi bi-arrow-right-short"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- testimonial-area-end -->
+  <!-- blog-area-start -->
+  <div class="product-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title">
+            <span class="sub-title">Latest News From Blog</span>
+            <h2 class="mt-2">OUR BLOG</h2>
+            <div class="divider text-center">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- blog-area-end -->
+  <!-- blog-card-area-start -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-4 text-center">
+        <div class="single-blog">
+          <div class="blog-img">
+            <img src="img/1 (4).jpg" alt="">
+
+          </div>
+          <div class="blog-data text-center">
+            <div class="bd-day">
+              25
+            </div>
+            <div class="bd-month">
+              Aug
+            </div>
+          </div>
+          <div class="blog-content">
+            <ul class="post-meta">
+              <li class="me-4"><i class="fa fa-user-o text-danger" aria-hidden="true"></i> Admin</li>
+              <li class="me-4"><i class="fa fa-comment-o text-danger " aria-hidden="true"></i> Comments
+              </li>
+              <li><i class="fa fa-eye text-danger" aria-hidden="true"></i> 12 views</li>
+            </ul>
+            <h4 class="post-title">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</h4>
+            <p>Proin in blandit lacus. Nam <br> pellentesque tortor eget dui feugiat <br> venenatis ....</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="single-blog">
+          <div class="blog-img">
+            <img src="img/2 (4).jpg" alt="">
+            <div class="blog-data text-center">
+              <div class="bd-day">
+                25
+              </div>
+              <div class="bd-month">
+                Aug
+              </div>
+            </div>
+          </div>
+          <div class="blog-content">
+            <ul class="post-meta">
+              <li class="me-4"><i class="fa fa-user-o text-danger" aria-hidden="true"></i> Admin</li>
+              <li class="me-4"><i class="fa fa-comment-o text-danger " aria-hidden="true"></i> Comments
+              </li>
+              <li><i class="fa fa-eye text-danger" aria-hidden="true"></i> 12 views</li>
+            </ul>
+            <h4 class="post-title">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</h4>
+            <p>Proin in blandit lacus. Nam <br> pellentesque tortor eget dui feugiat <br> venenatis ....</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="single-blog">
+          <div class="blog-img">
+            <img src="img/3 (4).jpg" alt="">
+            <div class="blog-data">
+              <div class="bd-day">
+                25
+              </div>
+              <div class="bd-month">
+                Aug
+              </div>
+            </div>
+          </div>
+          <div class="blog-content">
+            <ul class="post-meta">
+              <li class="me-4"><i class="fa fa-user-o text-danger" aria-hidden="true"></i> Admin</li>
+              <li class="me-4"><i class="fa fa-comment-o text-danger " aria-hidden="true"></i> Comments
+              </li>
+              <li><i class="fa fa-eye text-danger" aria-hidden="true"></i> 12 views</li>
+            </ul>
+            <h4 class="post-title">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</h4>
+            <p>Proin in blandit lacus. Nam <br> pellentesque tortor eget dui feugiat <br> venenatis ....</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- blog-card-area-end -->
+  <!-- brand-area-start -->
+  <section class="brand-area mt-5">
+    <div class="container">
+      <div class="owl-carousel py-4">
+        <img src="img/1.png" alt="" class="img img-fluid">
+        <img src="img/2.png" alt="" class="img img-fluid">
+        <img src="img/3.png" alt="">
+        <img src="img/5.png" alt="">
+        <img src="img/7.png" alt="">
+        <img src="img/8.png" alt="">
+        <img src="img/9.png" alt="">
+        <img src="img/1.png" alt="">
+        <img src="img/2.png" alt="">
+
+      </div>
+    </div>
+  </section>
+  <!-- brand-area-end -->
+  <!-- icons-area-start -->
+  <div class="icons mt-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-3">
+          <div class="single-process">
+            <div class="truck">
+              <i class="bi bi-truck"></i>
+            </div>
+
+            <div class="process-content">
+              <h3>Free Shipping</h3>
+              <p>Best Shipping Service</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="single-process">
+            <div class="truck">
+              <i class="bi bi-credit-card-2-back"></i>
+            </div>
+
+            <div class="process-content">
+              <h3>Cash On Delivery</h3>
+              <p>Fast Delivery Method</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="single-process">
+            <div class="truck">
+              <i class="bi bi-headset"></i>
+            </div>
+
+            <div class="process-content">
+              <h3>Support 24/7</h3>
+              <p>24 Hours a Day</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="single-process">
+            <div class="truck">
+              <i class="bi bi-alarm"></i>
+            </div>
+            <div class="process-content">
+              <h3>30 Days Return</h3>
+              <p>Simply Return 30 Days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- icons-area-end -->
+  <!-- footer-top-area-start -->
+  <footer>
+    <div class="footer-wrapper mt-5">
+      <div class="footer-area footer-padding">
+        <div class="container coal">
+          <div class="row justify-content-between">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8 mt-5">
+              <div class="single-footer-caption">
+                <div class="footer-content text-light">
+                  <h4 class="sf-title">Contacts</h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                      4060 Reppert Coal Road Jackson, <br> MS 39201 USA
+                    </li>
+                    <li class="mt-3">
+                      <i class="fa fa-mobile " aria-hidden="true"></i>
+
+                      (+123) 685 78 <br>
+                      (+064) 987 245
+                    </li>
+                    <li class="mt-3">
+                      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                      contact@yoursite.com <br>
+                      support@yoursite.com
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="offset-xl-1 col-xl-2 col-lg-2 col-md-4 col-sm-6 mt-5">
+              <div class="single-footer-caption">
+                <div class="footer-navigate text-light">
+                  <h4 class="sf-title">Information</h4>
+                  <ul class="list-unstyled text-light">
+                    <li class="mt-4">About Us</li>
+                    <li class="mt-3">Delivery Information</li>
+                    <li class="mt-3">Privacy Policy</li>
+                    <li class="mt-3">Terms & Conditions </li>
+                    <li class="mt-3">Contact Us</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 mt-5">
+              <div class="service-caption">
+                <div class="footer-services text-light">
+                  <h4 class="sf-title">Services</h4>
+                  <ul class="list-unstyled text-light">
+                    <li class="mt-4">Returns</li>
+                    <li class="mt-3">Site Map</li>
+                    <li class="mt-3">Wish List</li>
+                    <li class="mt-3">My Account</li>
+                    <li class="mt-3">Order History</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 mt-5">
+              <div class="subscribe">
+                <div class="newsletter text-light">
+                  <h4 class="sf-title">Join Us Newsletter</h4>
+                  <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisc <br> ing elit. Aenean lobortis</p>
+                  <form method="post" class="form-inline mt-5">
+                    <input name="Email" id="email" placeholder="Enter Your Email" class="form-control" type="email">
+                    <button type="submit" class="btn btn-default">
+                      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer-top-area-end -->
+  <!-- footer-bottom-area-start -->
+  <div class="footer-bottom-area">
+    <div class="footer-border">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="social-media">
+              <ul class="list-unstyled mt-5 text-center">
+                <li class="ms-2">
+                  <a href="#">
+                    <i class="fa fa-facebook " aria-hidden="true"></i>
+                  </a>
+                </li>
+
+                <li class="ms-2">
+                  <a href="#">
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                  </a>
+                </li>
+
+                <li class="ms-2">
+                  <a href="#">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="ms-2">
+                  <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="ms-2">
+                  <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-copy-right text-center text-light mt-4 ">
+              <p class="mt-5">Copyright © 2020 RapidShop, All rights Reserved. </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="payment-icon mt-5 ">
+              <img src="img/card.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer-bottom-area-end -->
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        items: 6,
+        margin: 0,
+        nav: false,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          480: {
+            items: 2,
+            nav: false
+          },
+          1000: {
+            items: 6,
+            nav: false
+          }
+        }
+      });
+    });
+  </script>
+  <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
