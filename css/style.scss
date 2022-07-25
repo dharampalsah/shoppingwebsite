@@ -823,7 +823,7 @@ li.All {
   padding: 12px 20px;
   transition: .5s;
   height: 50px;
-  margin-right: 70px;
+
 }
 
 .newsletter p {
@@ -1757,4 +1757,19 @@ hr {
   font-size: 14px;
   font-weight: 400;
   color: #777;
+}
+.box-content h3
+{
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 140px;
+    padding-top: 40px;
+    opacity: 1;
+    transition: transform 0.5s ease 0s;
+    width: auto;
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+
 }
